@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+padding: 0;
+    font-family: 'Work Sans';
+}
+section {
+    width: 1140px;
+    margin: 0 auto;
+}
+.p-btn{
+    background-color:#F15B22;
+    border: 0;
+    height: 64px;
+    padding: 21px 26px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+ul li{
+    list-style: none;
+}
+/* bonus--PART start */
+.logo{
+    font-size: 40px;
+    font-family: serif;
+    color: aliceblue;
+}
+ul li .one{
+   font-weight: 600;
+   color: rgb(226, 196, 255);
+   font-size: 20px;
+}
+.colour-text{
+    color: #F15B22;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #151414;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* bonus part end */
+
+
+.banner-bg{                                                
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.text{
+    margin-top: 100px;
+    margin-right: 200px;
+    text-align: right;
+}
+.header-title1{
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.header-title2{
+    font-size: 16px;
+    color: #fff9f9;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+/* <about-part> */
+.female-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bg-image{
+    display: flex;
+}
+.text-2nd{
+    width: 410px;
+}
+.text-bg{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #151414;;
+}
+.text-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+.list-text{
+    list-style: none;
+}
+.list-text li i{
+    color: rgb(16, 255, 7);
+    margin-right: 10px;
+}
+/* about-part end */
+/* my plan part start */
+
+.main-part{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.text-name{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+.all-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.items p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* plan part end */
+/* -- image part - */
+
+.image-part{
+    background: rgb(241,91,34);
+    background: linear-gradient(90deg, rgb(34, 172, 241) 0%, rgba(241,91,34,0) 100%),url(../images/watch.png) ;
+    height: 300px;
+    border-radius: 10px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-b{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 70px;
+}
+.text-w{
+    font-weight: 700;
+    font-size: 40px;
+}
+.text-b .p-btn{
+    background-color: white;
+    color: #F15B22;
+    margin-top: 25px;
+}
+/* image part end  */
+/* contect part  */
+
+footer{
+    background-color: #151414;;
+}
+.font .p-btn{
+    background-color: white;
+    color: #F15B22;
+    margin-top: 25px;
+}
+.footer-part{
+    color: white;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.font-c{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.last-font{
+    margin-bottom: 25px;
+}
+.font-line h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.ul-l{
+    display: flex;
+}
+.ul-l li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.email-part{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+    border: #fff solid 1px;
+    margin-bottom: 16px;
+}
+::placeholder{
+    padding-left: 15px;
+    color: #fff;
+}
+.font-line .p-btn{
+    background-color: white;
+    color: #F15B22;
+    border-radius: 5px;
+}
+/* contact part end */
